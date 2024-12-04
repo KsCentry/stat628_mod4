@@ -4,8 +4,8 @@ library(dplyr)
 library(stringr)
 library(spotifyr)
 
-id <- "c244xxxxxxxxxxxxxxxx"
-secret <- "816xxxxxxxxxxxxxxxxx"
+id <- "ID"
+secret <- "SECRET"
 
 Sys.setenv(SPOTIFY_CLIENT_ID = id)
 Sys.setenv(SPOTIFY_CLIENT_SECRET = secret)
